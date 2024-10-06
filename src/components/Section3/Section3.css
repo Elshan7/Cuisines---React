@@ -1,0 +1,130 @@
+.sct3 {
+    width: 100%;
+    height: 769px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sct3-container {
+    width: 100%;
+    height: 545px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text {
+    width: 320px;
+    height: 545px;
+    padding-left: 7px;
+}
+
+.subheading {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #120078;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+.heading {
+    font-family: "Oswald", sans-serif, sans-serif;
+    text-transform: uppercase;
+    font-size: 2.9rem;
+    color: #000;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    font-family: "Oswald", sans-serif, sans-serif;
+
+}
+
+.lorem {
+    width: 296px;
+    height: 182px;
+    margin-bottom: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    background: efefef;
+    color: rgba(0, 0, 0, 0.5) ;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+
+.sct3-ul {
+    width: 296px;
+    height: 101px;
+    display: flex;
+    justify-content: space-around;
+    align-items: start !important;
+    margin-bottom: 1.5rem;
+    padding-left: 0;
+
+}
+
+.a-text {
+    color: rgba(60, 60, 60, 0.5) ;
+}
+
+.sub-btn {
+    padding: 15px 30px;
+    color: #fff;
+    background-color: #120078;
+    border-color: #120078;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+   
+}
+
+.sct3-btn {
+    width: 296px;
+    height: 59px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.sct3-carousel {
+    width: 560px;
+    height: 370px;
+    background-color: aqua;
+    position: relative;
+    z-index: 2;
+    margin-right: 1rem;
+}
+
+.carousel-inner,.carousel{
+    width: 100% !important;
+    height: 100% !important;
+   }
+
+   .carousel-control-prev-icon,.carousel-control-next-icon  {
+    background-image: none !important;
+ }
+
+ .carousel-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+
+ .cover {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    width: 480px;
+    height: 769px;
+    background-color: #120078;
+ }
+
+ 

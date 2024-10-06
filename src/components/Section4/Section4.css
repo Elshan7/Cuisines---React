@@ -1,0 +1,115 @@
+.sct4 {
+    width: 100%;
+    height: 673px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6E6E6;
+}
+
+.sct4-conatiner {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sct4-text {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sct4-carousel {
+    width: 100%;
+    height: 340px;
+}
+
+.sct4-p {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #120078;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    text-align: center !important;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+.sct4-h2 {
+    font-family: "Oswald", sans-serif, sans-serif;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: #000;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.sct4-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    left: 47%;
+}
+
+.carousel-inner {
+    display: flex;
+}
+
+.sct4-lorem {
+    width: 510px;
+    height: 154px;
+    font-size: 18px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5) !important;
+    font-weight: 400;
+    line-height: 1.8;
+    font-family: "Poppins", sans-serif;
+    
+    display: flex;
+    align-items: center;
+
+}
+
+.author {
+    width: 500px;
+    height: 46.4px;
+    line-height: 1.3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.author span {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    white-space: normal;
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.carousel-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+} 
+
+.carousel-indicators [data-bs-target] {
+    background-color: rgba(18, 0, 120, 0.2);
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    background-color: #120078;
+    opacity: 1;
+}
