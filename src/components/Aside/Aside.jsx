@@ -12,7 +12,7 @@ const Aside = () => {
             </div>
             <div className="site-menu">
                 <ul>
-                    <li><a className='first' href="">ABOUT US</a></li>
+                    <li><a  href="">ABOUT US</a></li>
                     <li><a href="">OUR MENU</a></li>
                     <li><a href="">SPECIAL OFFERS</a></li>
                     <li><a href="">GALLERY</a></li>

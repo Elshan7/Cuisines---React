@@ -1,0 +1,160 @@
+footer {
+    width: 100%;
+    height: 567px;
+    background-color: #120078;
+    display: flex;
+    align-items: center;
+}
+
+.footer-container {
+    width: 100%;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-up {
+    width: 100%;
+    height: 254px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-down {
+    width: 100%;
+    height: 52px;
+}
+
+.part1 {
+    width: 240px;
+    height: 254px;
+    padding-left: 7px;
+}
+
+.part1-h3 {
+    font-size: 18px ;
+    font-weight: "Oswald", sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: .2rem;
+    margin-top: 10px;
+}
+
+.part1-p {
+    font-size: 14px;
+    line-height: 1.8;
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 27px;
+}
+
+.part1-a {
+    color: #fff;
+}
+
+.part2 {
+    width: 160px;
+    height: 254px;
+}
+
+.part2-h3 {
+    margin-top: 10px;
+    font-weight: bold;
+    letter-spacing: .2rem;
+    font-family: "Oswald", sans-serif;
+    padding-left: 1.8rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: .2rem;
+}
+
+.part2-ul {
+    width: 136px;
+    height: 166px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 1.5rem;
+}
+
+
+
+.part2-ul li a {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+.part3-ul {
+    width: 136px;
+    height: 131px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 1.5rem;
+}
+
+.part3-h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: .2rem;
+    margin-top: 10px;
+    padding-left: 28px;
+}
+
+.part3-ul li a {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+.first {
+    margin-top: 1.3rem;
+    padding-left: 1.6rem;
+}
+
+.first span , .second span {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.second {
+    padding-left: 1.6rem;
+}
+
+.part4 {
+    width: 370px;
+    height: 254px;
+}
+
+.part4-h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: .2rem;
+    margin-top: 10px;
+    padding-left: 28px;
+}
+
+.container-down {
+    width: 100%;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.last {
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+
+.last-span {
+    color: white;
+}
