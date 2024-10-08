@@ -27,7 +27,7 @@ const Section2 = () => {
             <Card.Body>
               <Card.Title>{item.name}</Card.Title>
               <Card.Text>{item.ingredients}</Card.Text>
-              <Button variant="primary">More Details...</Button>
+              <Button variant="primary">Order {item.name}</Button>
             </Card.Body>
           </Card>
         );
